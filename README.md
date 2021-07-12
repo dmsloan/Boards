@@ -10,8 +10,10 @@
 - [Decoding Exceptions](#decoding-exceptions)
 - [Issue/Bug report template](#issuebug-report-template)
 - [WEMOS LOLIN32 with OLED Board](#WEMOS-LOLIN32)
+- [WeMos d1 Mini Pro](#d1_Mini_Pro)
 - [Heltec WiFi LORA 32 V1](#Heltec-WiFi-LORA-32-V1)
 - [Heltec WiFi LORA 32 V2](#Heltec-WiFi-LORA-32-V2)
+
 ## Notes
 
 You may have to push the button to upload to the board
@@ -38,7 +40,16 @@ Board name WEMOS LOLIN32.<br/>
 ![Pin Functions](docs/WemosESP32OLEDTop.jpg)
 ![Pin Functions](docs/WemosESP32OLEDBottom.jpg)
 ![Pin Functions](docs/WemosESP32OLEDPinout.jpg)
+## - #WEMOS LOLIN32V100
+Board name WeMos LOLIN32 V1.0.0<br/>
 
+![Pin Functions](docs/ESP32WeMosLOLIN32Top.jpg)
+![Pin Functions](docs/ESP32WeMosLOLIN32Bottom.jpg)
+![Pin Functions](docs/ESP32WeMosLOLIN32Pinout.png)
+## - #d1_Mini_Pro
+Board name WeMos d1 Mini Pro<br/>
+
+![Pin Functions](docs/wemos_d1_mini_pro_pinout.png)
 ## Heltec WiFi LORA 32 V1
 Heltec WiFi LORA 32 V1 – ESP32 with OLED and LORA Board<br/>
 To program you need to hold button labeled PRG near coil antenna.<br/>
