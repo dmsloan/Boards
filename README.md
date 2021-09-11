@@ -13,10 +13,13 @@
 - [WeMos d1 Mini Pro](#d1_Mini_Pro)
 - [Heltec WiFi LORA 32 V1](#Heltec-WiFi-LORA-32-V1)
 - [Heltec WiFi LORA 32 V2](#Heltec-WiFi-LORA-32-V2)
+- [Adafruit ADS1115](#Adafruit-ADS1115)
+- [BME280](#BME280)
 
 ## Notes
 
 You may have to push the button to upload to the board
+ADS1115 does not seem to work with HW enabled on the OLED on the WiFi LORA
 ## Installation Instructions
 - Use VS Code and PlatformIO
 
@@ -79,7 +82,12 @@ I have unresolved issues using a second I2C device with the OLED<br/>
 </ul>
 
 ![Pin Functions](docs/WIFI_LoRa_32_V2PinDiagram.png)
+## Adafruit ADS1115
+I2C address is 0x48
+![Pin Functions](docs/AdafruitADS1015ADS1115PinDiagram.jpg)
+## BME280
+I2C address is 0x76 or 0x77 if you cut the trace between the left two pads and add a jumper to the right two pads.
+![Pin Functions](docs/BMP280.jpg)
 
 ## Hint
-
 Keep at it.
