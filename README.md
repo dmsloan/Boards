@@ -83,10 +83,12 @@ I have unresolved issues using a second I2C device with the OLED<br/>
 
 ![Pin Functions](docs/WIFI_LoRa_32_V2PinDiagram.png)
 ## Adafruit ADS1115
-I2C address is 0x48
+I2C address is 0x48<br/>
+Go to Adafruit [for more information.](https://www.adafruit.com/product/1085)
 ![Pin Functions](docs/AdafruitADS1015ADS1115PinDiagram.jpg)
 ## BME280
-I2C address is 0x76 or 0x77 if you cut the trace between the left two pads and add a jumper to the right two pads.
+I2C address is 0x76 or 0x77 if you cut the trace between the left two pads and add a jumper to the right two pads.<br/>
+Go to Adafruit [for more information.](https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout)
 ![Pin Functions](docs/BMP280.jpg)
 
 ## Hint
