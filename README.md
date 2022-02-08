@@ -9,6 +9,7 @@
 - [Installation Instructions](#installation-instructions)
 - [Decoding Exceptions](#decoding-exceptions)
 - [Issue/Bug report template](#issuebug-report-template)
+- [Arduino Nano](#ARDUINO-NANO)
 - [WEMOS LOLIN32 with OLED Board](#WEMOS-LOLIN32)
 - [WeMos d1 Mini Pro](#d1_Mini_Pro)
 - [Heltec WiFi LORA 32 V1](#Heltec-WiFi-LORA-32-V1)
@@ -31,6 +32,13 @@ I have no idea how to do this or what they are talking about.
 
 Finally, if you're sure no one else had the issue, it's probably you.
 
+## ARDUINO NANO
+Board name ARDUINO NANO atmega328.<br/>
+<ul>
+</ul>
+
+![Pin Functions](docs/arduino-nano-pinout.png)
+
 ## WEMOS LOLIN32
 Board name WEMOS LOLIN32.<br/>
 <ul>
@@ -45,13 +53,11 @@ Board name WEMOS LOLIN32.<br/>
 ![Pin Functions](docs/WemosESP32OLEDPinout.jpg)
 ## - #WEMOS LOLIN32V100
 Board name WeMos LOLIN32 V1.0.0<br/>
-
 ![Pin Functions](docs/ESP32WeMosLOLIN32Top.jpg)
 ![Pin Functions](docs/ESP32WeMosLOLIN32Bottom.jpg)
 ![Pin Functions](docs/ESP32WeMosLOLIN32Pinout.png)
 ## - #d1_Mini_Pro
 Board name WeMos d1 Mini Pro<br/>
-
 ![Pin Functions](docs/wemos_d1_mini_pro_pinout.png)
 ## Heltec WiFi LORA 32 V1
 Heltec WiFi LORA 32 V1 – ESP32 with OLED and LORA Board<br/>
