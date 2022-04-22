@@ -1,7 +1,4 @@
 # Repo to hold board information
-## 
-## 
-
 ### 
 
 ## Contents
@@ -15,7 +12,9 @@
 - [Heltec WiFi LORA 32 V1](#Heltec-WiFi-LORA-32-V1)
 - [Heltec WiFi LORA 32 V2](#Heltec-WiFi-LORA-32-V2)
 - [Adafruit ADS1115](#Adafruit-ADS1115)
-- [BME280](#BME280)
+- [BME280/BMP280 Pressure/Temperature/Humidity sensor](#BME280/BMP280)
+- [MPRLS Pressure sensor](#MPRLS)
+- [LSM303DLHC e-Compass 3 Axis Accelerometer + 3 Axis Magnetometer Module Sensor](#LSM303DLHC) 
 
 ## Notes
 
@@ -90,12 +89,23 @@ I have unresolved issues using a second I2C device with the OLED<br/>
 ![Pin Functions](docs/WIFI_LoRa_32_V2PinDiagram.png)
 ## Adafruit ADS1115
 I2C address is 0x48<br/>
-Go to Adafruit [for more information.](https://www.adafruit.com/product/1085)
-![Pin Functions](docs/AdafruitADS1015ADS1115PinDiagram.jpg)
-## BME280
+![Pin Functions](docs/AdafruitADS1015ADS1115PinDiagram.jpg)<br/>
+Go to [Adafruit](https://www.adafruit.com/product/1085) for more information.<br/>
+## BME280/BMP280
 I2C address is 0x76 or 0x77 if you cut the trace between the left two pads and add a jumper to the right two pads.<br/>
-Go to Adafruit [for more information.](https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout)
-![Pin Functions](docs/BMP280.jpg)
+The BME280 has Pressure, Temperature, and Humidity. The BMP only hase Pressure.<br/>
+![Pin Functions](docs/BMP280.jpg)<br/>
+Go to [Adafruit](https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout) for more information.<br/>
+## MPRLS
+I2C address is 0x18 and cannot be changed.<br/>
+The MPRLS has Pressure sensing of 0-25 PSI with a push on a tube connection.<br/>
+![Pin Functions](docs/MPRLS3965-00.jpg)<br/>
+Go to [Adafruit](https://www.adafruit.com/products/3965) or [Sparkfun](https://www.sparkfun.com/products/16476) for more information.<br/>
+
+## LSM303DLHC
+![Pin Functions](docs/LSM303DLHCe-Compass3AxisAccelerometerAnd3AxisMagnetometerModule.jpg)![Pin Functions](docs/LSM303DLHCe-Compass3AxisAccelerometerAnd3AxisMagnetometerModule61VO3bK8u+L._AC_SX679_.jpg) <br/>
+This board is a knock off and is completely untested.<br/>
+Go to [Adafruit](https://www.adafruit.com/product/1120) for more information. New information is [LSM303 Accelerometer + Compass Breakout.](https://learn.adafruit.com/lsm303-accelerometer-slash-compass-breakout/coding)<br/>
 
 ## Hint
 Keep at it.
