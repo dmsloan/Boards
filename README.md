@@ -93,7 +93,7 @@ I2C address is 0x48<br/>
 Go to [Adafruit](https://www.adafruit.com/product/1085) for more information.<br/>
 ## BME280/BMP280
 I2C address is 0x76 or 0x77 if you cut the trace between the left two pads and add a jumper to the right two pads.<br/>
-The BME280 has Pressure, Temperature, and Humidity. The BMP only hase Pressure.<br/>
+The BME280 has Pressure, Temperature, and Humidity. The BMP only has Pressure and Temperature.<br/>
 ![Pin Functions](docs/BMP280.jpg)<br/>
 Go to [Adafruit](https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout) for more information.<br/>
 ## MPRLS
