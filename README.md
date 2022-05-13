@@ -7,6 +7,7 @@
 - [Decoding Exceptions](#decoding-exceptions)
 - [Issue/Bug report template](#issuebug-report-template)
 - [Arduino Nano](#ARDUINO-NANO)
+- [Esp32-devkitC](#esp32-devkitC-v4)
 - [WEMOS LOLIN32 with OLED Board](#WEMOS-LOLIN32)
 - [WeMos d1 Mini Pro](#d1_Mini_Pro)
 - [Heltec WiFi LORA 32 V1](#Heltec-WiFi-LORA-32-V1)
@@ -37,6 +38,12 @@ Board name ARDUINO NANO atmega328.<br/>
 </ul>
 
 ![Pin Functions](docs/arduino-nano-pinout.png)
+## esp32-devkitC-v4
+Board name esp32-devkitC v4.<br/>
+<ul>
+</ul>
+
+![Pin Functions](docs/esp32-devkitC-v4-pinout.png)
 
 ## WEMOS LOLIN32
 Board name WEMOS LOLIN32.<br/>
