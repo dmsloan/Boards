@@ -33,20 +33,20 @@ I have no idea how to do this or what they are talking about.
 Finally, if you're sure no one else had the issue, it's probably you.
 
 ## ARDUINO NANO
-Board name ARDUINO NANO atmega328.<br/>
+Board name ARDUINO NANO atmega328. For PlatformIO use "nanoatmega328" for the board type.<br/>
 <ul>
 </ul>
 
 ![Pin Functions](docs/arduino-nano-pinout.png)
 ## esp32-devkitC-v4
-Board name esp32-devkitC v4.<br/>
+Board name esp32-devkitC v4. For PlatformIO use "esp32dev" for the board type.<br/>
 <ul>
 </ul>
 
 ![Pin Functions](docs/esp32-devkitC-v4-pinout.png)
 
 ## WEMOS LOLIN32
-Board name WEMOS LOLIN32.<br/>
+Board name WEMOS LOLIN32. For PlatformIO use "lolin32" for the board type.<br/>
 <ul>
     <li>OLED Connections:</li>
         <li>CLOCK 4</li>
@@ -58,15 +58,16 @@ Board name WEMOS LOLIN32.<br/>
 ![Pin Functions](docs/WemosESP32OLEDBottom.jpg)
 ![Pin Functions](docs/WemosESP32OLEDPinout.jpg)
 ## - #WEMOS LOLIN32V100
-Board name WeMos LOLIN32 V1.0.0<br/>
+Board name WeMos LOLIN32 V1.0.0. For PlatformIO use "" for the board type.<br/>
 ![Pin Functions](docs/ESP32WeMosLOLIN32Top.jpg)
 ![Pin Functions](docs/ESP32WeMosLOLIN32Bottom.jpg)
 ![Pin Functions](docs/ESP32WeMosLOLIN32Pinout.png)
 ## - #d1_Mini_Pro
-Board name WeMos d1 Mini Pro<br/>
+Board name WeMos d1 Mini Pro. For PlatformIO use "" for the board type.<br/>
 ![Pin Functions](docs/wemos_d1_mini_pro_pinout.png)
 ## Heltec WiFi LORA 32 V1
-Heltec WiFi LORA 32 V1 – ESP32 with OLED and LORA Board<br/>
+Heltec WiFi LORA 32 V1 – For PlatformIO use "heltec_wifi_lora_32" for the board type.<br/>
+ESP32 with OLED and LORA Board<br/>
 To program you need to hold button labeled PRG near coil antenna.<br/>
 <ul>
     <li>I2C Connections:</li>
@@ -80,7 +81,8 @@ To program you need to hold button labeled PRG near coil antenna.<br/>
 
 ![Pin Functions](docs/WiFi-LORA-32-pinout-Diagram.png)
 ## Heltec WiFi LORA 32 V2
-Heltec WiFi LORA 32 V2 – ESP32 with OLED and LORA Board<br/>
+Heltec WiFi LORA 32 V2 – For PlatformIO use "heltec_wifi_lora_32_V2" for the board type.<br/>
+ESP32 with OLED and LORA Board<br/>
 To program you need to hold button labeled PRG near coil antenna.<br/>
 I have unresolved issues using a second I2C device with the OLED<br/>
 <ul>
