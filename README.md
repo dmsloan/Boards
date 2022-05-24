@@ -12,6 +12,7 @@
 - [WeMos d1 Mini Pro](#d1_Mini_Pro)
 - [Heltec WiFi LORA 32 V1](#Heltec-WiFi-LORA-32-V1)
 - [Heltec WiFi LORA 32 V2](#Heltec-WiFi-LORA-32-V2)
+- [Esp32 with battery holder and OLED](#TTGOBatteryOLED)
 - [Adafruit ADS1115](#Adafruit-ADS1115)
 - [BME280/BMP280 Pressure/Temperature/Humidity sensor](#BME280/BMP280)
 - [MPRLS Pressure sensor](#MPRLS)
@@ -96,6 +97,17 @@ I have unresolved issues using a second I2C device with the OLED<br/>
 </ul>
 
 ![Pin Functions](docs/WIFI_LoRa_32_V2PinDiagram.png)
+## TTGOBatteryOLED
+TTGO ESP32 with builtin battery holder and OLED – For PlatformIO use "TTGOBatteryOLED" for the board type.<br/>
+<ul>
+    <li>OLED Connections:</li>
+        <li>CLOCK 4</li>
+        <li>DATA 5</li>
+        <li>RESET NULL</li>
+</ul>
+<br/>
+![Pin Functions](docs/ESP32OledBatteryHolder.jpg)<br/>
+![Pin Functions](docs/ESP32OledBatteryHolderPinout.jpg)<br/>
 ## Adafruit ADS1115
 I2C address is 0x48<br/>
 ![Pin Functions](docs/AdafruitADS1015ADS1115PinDiagram.jpg)<br/>
