@@ -6,6 +6,7 @@
 - [Installation Instructions](#installation-instructions)
 - [Decoding Exceptions](#decoding-exceptions)
 - [Issue/Bug report template](#issuebug-report-template)
+- [Adafruit HUZZAH32 Feather](#Adafruit-HUZZAH32)
 - [Arduino Nano](#ARDUINO-NANO)
 - [Esp32-devkitC](#esp32-devkitC-v4)
 - [WEMOS LOLIN32 with OLED Board](#WEMOS-LOLIN32)
@@ -29,6 +30,14 @@
 
 #### Issue/Bug report template
 - Finally, if you're sure no one else had the issue, it's probably you.
+
+## Adafruit HUZZAH32
+Board name Adafruit HUZZAH32 – ESP32 Feather Board. For PlatformIO use "featheresp32" for the board type.<br/>
+Board has a built in LED on pin 13 defined as "LED_BUILTIN". To upload code there is no need to hold down a button.<br/>
+
+![Pin Functions](docs/AdafruitHUZZAH32-ESP32FeatherPinoutTop.jpg)
+![Pin Functions](docs/AdafruitHUZZAH32-ESP32FeatherPinoutBottom.jpg)
+![Pin Functions](docs/AdafruitHuzzah32PinDiagram.png)
 
 ## ARDUINO NANO
 Board name ARDUINO NANO atmega328. For PlatformIO use "nanoatmega328" for the board type.<br/>
