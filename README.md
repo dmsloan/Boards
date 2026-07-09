@@ -14,6 +14,7 @@
 - [Heltec WiFi LORA 32 V1](#Heltec-WiFi-LORA-32-V1)
 - [Heltec WiFi LORA 32 V2](#Heltec-WiFi-LORA-32-V2)
 - [Esp32 with battery holder and OLED](#TTGOBatteryOLED)
+- [Esp32 S3 Black board with onboard WS2812](#ESP32S3DevKitC1)
 - [Adafruit ADS1115](#Adafruit-ADS1115)
 - [BME280/BMP280 Pressure/Temperature/Humidity sensor](#BME280/BMP280)
 - [MPRLS Pressure sensor](#MPRLS)
@@ -113,6 +114,19 @@ TTGO ESP32 with builtin battery holder and OLED – For PlatformIO use "TTGOBatt
 
 ![Pin Functions](docs/ESP32OledBatteryHolder.jpg)<br/>
 ![Pin Functions](docs/ESP32OledBatteryHolderPinout.jpg)<br/>
+
+## ESP32S3DevKitC1
+Esp32 S3 Black board with onboard WS2812 – For PlatformIO use "4d_systems_esp32s3_gen4_r8n16" for the board type.<br/>
+Not sure if this is true: To program you need to hold button labeled PRG near coil antenna.<br/>
+<ul>
+    <li>Connections:</li>
+        <li>CLOCK</li>
+        <li>DATA</li>
+        <li>RESET NULL</li>
+</ul><br/>
+
+![Pin Functions](docs/esp32-S3-DevKitC-1.jpg)<br/>
+![Pin Functions](esp32-S3-DevKitC-1-original-pinout-high.png)<br/>
 
 ## Adafruit ADS1115
 I2C address is 0x48<br/>
