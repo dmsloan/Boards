@@ -117,8 +117,12 @@ TTGO ESP32 with builtin battery holder and OLED – For PlatformIO use "TTGOBatt
 
 ## ESP32S3DevKitC1
 Esp32-S3-N16R8 Black board with onboard WS2812 – For PlatformIO use "esp32-s3-devkitc-1-n16r8v" for the board type.<br/>
-The onboard WS2812 is connected to GPIO48<br/>
-To enable SRAM use custom board esp32-s3-devkitc-1-n16r8v located in this file. You must copy it to the proper location<br/>
+Dual core, 16MB Flash: Like a hard drive for your programs and data
+8MB PSRAM: Extra memory for big projects
+512KB SRAM: Fast memory for quick calculations.<br/>
+COM connection is connected to the UART. It is reversed from other boards.<br/>
+The onboard WS2812 is connected to GPIO48.<br/>
+To enable SRAM use custom board esp32-s3-devkitc-1-n16r8v located in this file. You must copy it to the proper location.<br/>
 <ul>
     <li>Connections:</li>
         <li>CLOCK</li>
