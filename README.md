@@ -14,7 +14,7 @@
 - [Heltec WiFi LORA 32 V1](#Heltec-WiFi-LORA-32-V1)
 - [Heltec WiFi LORA 32 V2](#Heltec-WiFi-LORA-32-V2)
 - [Esp32 with battery holder and OLED](#TTGOBatteryOLED)
-- [Esp32 S3 Black board with onboard WS2812](#ESP32S3DevKitC1)
+- [Esp32-S3-N16R8 Black board with onboard WS2812, HW678](#ESP32S3DevKitC1)
 - [Adafruit ADS1115](#Adafruit-ADS1115)
 - [BME280/BMP280 Pressure/Temperature/Humidity sensor](#BME280/BMP280)
 - [MPRLS Pressure sensor](#MPRLS)
@@ -116,8 +116,9 @@ TTGO ESP32 with builtin battery holder and OLED – For PlatformIO use "TTGOBatt
 ![Pin Functions](docs/ESP32OledBatteryHolderPinout.jpg)<br/>
 
 ## ESP32S3DevKitC1
-Esp32 S3 Black board with onboard WS2812 – For PlatformIO use "4d_systems_esp32s3_gen4_r8n16" for the board type.<br/>
-Not sure if this is true: To program you need to hold button labeled PRG near coil antenna.<br/>
+Esp32-S3-N16R8 Black board with onboard WS2812 – For PlatformIO use "esp32-s3-devkitc-1-n16r8v" for the board type.<br/>
+The onboard WS2812 is connected to GPIO48<br/>
+To enable SRAM use custom board esp32-s3-devkitc-1-n16r8v located in this file. You must copy it to the proper location<br/>
 <ul>
     <li>Connections:</li>
         <li>CLOCK</li>
@@ -126,7 +127,8 @@ Not sure if this is true: To program you need to hold button labeled PRG near co
 </ul><br/>
 
 ![Pin Functions](docs/esp32-S3-DevKitC-1.jpg)<br/>
-![Pin Functions](esp32-S3-DevKitC-1-original-pinout-high.png)<br/>
+![Pin Functions](docs/esp32-S3-DevKitC-1-HW678.jpg)<br/>
+![Pin Functions](docs/esp32-S3-DevKitC-1-original-pinout-high.png)<br/>
 
 ## Adafruit ADS1115
 I2C address is 0x48<br/>
